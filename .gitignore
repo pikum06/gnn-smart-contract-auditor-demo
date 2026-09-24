@@ -1,0 +1,18 @@
+# Windows & OS metadata
+*:Zone.Identifier
+.DS_Store
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Rust, Solana & Anchor build artifacts
+/target/
+/.anchor/
+node_modules/
+dist/
