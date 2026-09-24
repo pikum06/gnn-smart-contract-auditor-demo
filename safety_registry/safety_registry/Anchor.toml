@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "1.0.1"
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+safety_registry = "4hUHvbiUqHsRGXtvnpwidmBxj7PitG41E2FmjXYkc7zY"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]
